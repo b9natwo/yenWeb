@@ -180,10 +180,61 @@
       ]
     },
     {
+      "id": "sativa",
+      "title": "sativa",
+      "year": 2022,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/6180300e02f7c482b4ae5d85af71c0d8.jpg",
+      "tracks": [
+        {
+          "title": "gelato",
+          "duration": "1:43",
+          "src": "src/sativa/1. gelato.mp3",
+          "preview": "src/sativa/1. gelato.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "tell me",
+          "duration": "1:51",
+          "src": "src/sativa/2. tell me.mp3",
+          "preview": "src/sativa/2. tell me.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "cartier",
+          "duration": "1:25",
+          "src": "src/sativa/3. cartier.mp3",
+          "preview": "src/sativa/3. cartier.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
+      "id": "PHAT CHRIST",
+      "title": "PHAT CHRIST",
+      "year": 2022,
+      "art": "https://lastfm.freetls.fastly.net/i/u/770x0/c3777d5583c3b0d7cbf8f6a67b1bc7e2.jpg#c3777d5583c3b0d7cbf8f6a67b1bc7e2",
+      "tracks": [
+        {
+          "title": "karma",
+          "duration": "2:00",
+          "src": "src/phatchrist/1. karma.mp3",
+          "preview": "src/phatchrist/1. karma.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "savior",
+          "duration": "1:32",
+          "src": "src/phatchrist/2. savior.mp3",
+          "preview": "src/phatchrist/2. savior.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
       "id": "panic",
       "title": "panic",
       "year": 2024,
-      "art": "https://t2.genius.com/unsafe/330x0/https%3A%2F%2Fimages.genius.com%2F4b84902ff4d6e49b36afa4cf01b14b58.1000x1000x1.png",
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/a5e5c987c2d70815252fd6af5483a709.jpg",
       "tracks": [
         {
           "title": "stan",
