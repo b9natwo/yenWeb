@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jaydes library</title>
+  <link rel="stylesheet" href="jaydes.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+</head>
+<body>
+
+<header>
+  <h1>jaydes</h1>
+  <p class="subtitle">jayden yen dumont</p>
+
+  <div class="filters">
+    <input type="text" id="search" placeholder="search songs..." autocomplete="off"/>
+    
+    <div class="mood-filters">
+      <button data-mood="all" class="active">all</button>
+      <button data-mood="evvls">evvls</button>
+      <button data-mood="mandy">mandy</button>
+      <button data-mood="jaydes">jaydes</button>
+      <button data-mood="yen">yen</button>
+      <button id="random-btn">random</button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <!-- Albums will be dynamically populated from JSON -->
+</main>
+
+<!-- Global Player -->
+<div class="global-player">
+  <div class="player-left">
+    <img id="current-art" src="https://via.placeholder.com/54/111/222?text=" alt="" class="mini-art"/>
+    <div class="current-info">
+      <div id="current-title">—</div>
+      <div id="current-album">—</div>
+    </div>
+  </div>
+
+  <div class="player-center">
+    <button id="prev-btn">‹‹</button>
+    <button id="play-pause-btn" class="big-play">▶</button>
+    <button id="next-btn">››</button>
+
+    <div class="progress-container">
+      <span id="current-time">0:00</span>
+      <input type="range" id="progress" min="0" max="100" value="0"/>
+      <span id="duration">0:00</span>
+    </div>
+  </div>
+
+  <button id="queue-btn">queue</button>
+</div>
+
+<!-- Queue Modal -->
+<div id="queue-modal" class="queue-modal">
+  <div class="queue-content">
+    <h3>Queue</h3>
+    <ul id="queue-list"></ul>
+    <button id="close-queue">Close</button>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script src="jaydes.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+{
+  "albums": [
+    {
+      "id": "interrobang",
+      "title": "!?",
+      "year": 2021,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/f4dbd5f7d81562cae5eb02e8f9660c51.jpg",
+      "tracks": [
+        {
+          "title": "intro",
+          "duration": "1:41",
+          "src": "src/interrobang/1. intro.mp3",
+          "preview": "src/interrobang/1. intro.mp3",
+          "moods": ["evvls"]
+        },
+        {
+          "title": "sick",
+          "duration": "2:05",
+          "src": "src/interrobang/2. sick.mp3",
+          "preview": "src/interrobang/2. sick.mp3",
+          "moods": ["evvls"]
+        },
+        {
+          "title": "scam likely",
+          "duration": "1:25",
+          "src": "src/interrobang/3. scam likely.mp3",
+          "preview": "src/interrobang/3. scam likely.mp3",
+          "moods": ["evvls"]
+        },
+        {
+          "title": "passive aggression (ft. Yung Fazo)",
+          "duration": "2:15",
+          "src": "src/interrobang/4. passive aggression (ft. Yung Fazo).mp3",
+          "preview": "src/interrobang/4. passive aggression (ft. Yung Fazo).mp3",
+          "moods": ["evvls"]
+        },
+        {
+          "title": "hearts",
+          "duration": "2:01",
+          "src": "src/interrobang/5. hearts.mp3",
+          "preview": "src/interrobang/5. hearts.mp3",
+          "moods": ["evvls"]
+        }
+      ]
+    },
+    {
+      "id": "romanticism",
+      "title": "romanticism",
+      "year": 2022,
+      "art": "https://lastfm.freetls.fastly.net/i/u/770x0/47898b374f0a6005dda8d2200816a421.jpg#47898b374f0a6005dda8d2200816a421",
+      "tracks": [
+        {
+          "title": "4u",
+          "duration": "0:34",
+          "src": "src/romanticism/1. 4u.mp3",
+          "preview": "src/romanticism/1. 4u.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "tylenol",
+          "duration": "1:21",
+          "src": "src/romanticism/2. tylenol.mp3",
+          "preview": "src/romanticism/2. tylenol.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "migraine",
+          "duration": "0:31",
+          "src": "src/romanticism/3. migraine.mp3",
+          "preview": "src/romanticism/3. migraine.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "convenience",
+          "duration": "1:14",
+          "src": "src/romanticism/4. convenience.mp3",
+          "preview": "src/romanticism/4. convenience.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
+      "id": "heartpacing",
+      "title": "heartpacing",
+      "year": 2022,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/fb19f08f4438c1f4dbab1895a7324141.jpg",
+      "tracks": [
+        {
+          "title": "built off slime",
+          "duration": "1:56",
+          "src": "src/heartpacing/1. built off slime.mp3",
+          "preview": "src/heartpacing/1. built off slime.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "Who Can I Trust (ft. Rich Amiri)",
+          "duration": "2:16",
+          "src": "src/heartpacing/2. who can i trust.mp3",
+          "preview": "src/heartpacing/2. who can i trust.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "stuck to script",
+          "duration": "1:40",
+          "src": "src/heartpacing/3. stuck to script.mp3",
+          "preview": "src/heartpacing/3. stuck to script.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "sedated",
+          "duration": "1:46",
+          "src": "src/heartpacing/4. sedated.mp3",
+          "preview": "src/heartpacing/4. sedated.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "dont worry bout me",
+          "duration": "1:53",
+          "src": "src/heartpacing/5. dont worry bout me.mp3",
+          "preview": "src/heartpacing/5. dont worry bout me.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "Patience (ft. Riovaz)",
+          "duration": "2:02",
+          "src": "src/heartpacing/6. patience.mp3",
+          "preview": "src/heartpacing/6. patience.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "never meet your idols",
+          "duration": "1:40",
+          "src": "src/heartpacing/7. never meet your idols.mp3",
+          "preview": "src/heartpacing/7. never meet your idols.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "drama queen",
+          "duration": "1:42",
+          "src": "src/heartpacing/8. drama queen.mp3",
+          "preview": "src/heartpacing/8. drama queen.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "hateinterlude",
+          "duration": "1:18",
+          "src": "src/heartpacing/9. hateinterlude.mp3",
+          "preview": "src/heartpacing/9. hateinterlude.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
+      "id": "sativa",
+      "title": "sativa",
+      "year": 2022,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/6180300e02f7c482b4ae5d85af71c0d8.jpg",
+      "tracks": [
+        {
+          "title": "gelato",
+          "duration": "1:43",
+          "src": "src/sativa/1. gelato.mp3",
+          "preview": "src/sativa/1. gelato.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "tell me",
+          "duration": "1:51",
+          "src": "src/sativa/2. tell me.mp3",
+          "preview": "src/sativa/2. tell me.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "cartier",
+          "duration": "1:25",
+          "src": "src/sativa/3. cartier.mp3",
+          "preview": "src/sativa/3. cartier.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
+      "id": "panic",
+      "title": "panic",
+      "year": 2024,
+      "art": "https://t2.genius.com/unsafe/330x0/https%3A%2F%2Fimages.genius.com%2F4b84902ff4d6e49b36afa4cf01b14b58.1000x1000x1.png",
+      "tracks": [
+        {
+          "title": "stan",
+          "duration": "1:09",
+          "src": "src/panic/1. stan.mp3",
+          "preview": "src/panic/stan.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "piss",
+          "duration": "1:29",
+          "src": "src/panic/2. piss.mp3",
+          "preview": "src/panic/2. piss.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "babies",
+          "duration": "2:36",
+          "src": "src/panic/3. babies.mp3",
+          "preview": "src/panic/3. babies.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "die",
+          "duration": "2:22",
+          "src": "src/panic/4. die.mp3",
+          "preview": "src/panic/4. die.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "cry",
+          "duration": "1:33",
+          "src": "src/panic/5. cry.mp3",
+          "preview": "src/panic/5. cry.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "lowlife",
+          "duration": "1:01",
+          "src": "src/panic/6. lowlife.mp3",
+          "preview": "src/panic/6. lowlife.mp3",
+          "moods": ["yen"]
+        }
+      ]
+    },
+    {
+      "id": "whatever",
+      "title": "whatever",
+      "year": 2025,
+      "art": "https://t2.genius.com/unsafe/379x379/https%3A%2F%2Fimages.genius.com%2F331bfa0364d0e9edfca8f730d9d50021.1000x1000x1.png",
+      "tracks": [
+        {
+          "title": "iced mocha dolche cream",
+          "duration": "3:12",
+          "src": "src/whatever/2. iced mocha dolche cream.mp3",
+          "preview": "src/whatever/2. iced mocha dolche cream.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "nectar",
+          "duration": "3:05",
+          "src": "src/whatever/3. nectar.mp3",
+          "preview": "src/whatever/3. nectar.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "twig",
+          "duration": "2:30",
+          "src": "src/whatever/4. twig.mp3",
+          "preview": "src/whatever/4. twig.mp3",
+          "moods": ["mandy"]
+        },
+        {
+          "title": "whatever",
+          "duration": "2:47",
+          "src": "src/whatever/5. whatever.mp3",
+          "preview": "src/whatever/whatever.mp3",
+          "moods": ["mandy"]
+        }
+      ]
+    }
+  ]
+}
