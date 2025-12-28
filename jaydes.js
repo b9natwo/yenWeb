@@ -31,7 +31,7 @@ fetch('songs.json')
     allTracks = albums.flatMap(album => album.tracks.map(track => ({
       ...track,
       albumTitle: album.title,
-      albumArt: album.art,
+      albumArt: track.art || album.art,
       moods: track.moods
     })));
   })
@@ -65,6 +65,7 @@ function renderAlbums() {
       trackEl.dataset.src = track.src;
       trackEl.dataset.preview = track.preview;
       trackEl.innerHTML = `
+        <img src="${track.art || album.art}" alt="" class="track-art"/>
         <span class="track-title">${track.title}</span>
         <span class="track-duration">${track.duration}</span>
       `;
