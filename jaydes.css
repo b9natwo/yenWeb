@@ -141,188 +141,271 @@ h1 {
   left: 0;
   right: 0;
   height: 90px;
-  background: #0f0f0f;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(20px);
   border-top: 1px solid #222;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
+  padding: 0 28px;
   gap: 20px;
   z-index: 1000;
 }
 
-.player-left {
+.player-main {
   display: flex;
   align-items: center;
-  gap: 14px;
-  min-width: 0;
   flex: 1;
+  min-width: 0;
+  gap: 24px;
+}
+
+/* Left group stays compact */
+.player-left-group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  animation: fadeIn 0.4s ease;
 }
 
 .mini-art {
-  width: 54px;
-  height: 54px;
+  width: 64px;
+  height: 64px;
   object-fit: cover;
-  border-radius: 8px;
-  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
 }
 
 .current-info {
   min-width: 0;
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  max-width: 240px;
 }
 
 #current-title {
   font-weight: 500;
-  font-size: 1.03rem;
+  font-size: 1.08rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #fff;
 }
 
 #current-album {
-  font-size: 0.86rem;
+  font-size: 0.88rem;
   color: #888;
-}
-
-/* CENTER CONTROLS */
-.player-center {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-width: 300px;
 }
 
 .player-controls {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
+  flex-shrink: 0;
 }
 
-#prev-btn, #next-btn {
+.control-btn, #prev-btn, #next-btn {
   background: none;
   border: none;
-  color: #aaa;
+  color: #bbb;
   font-size: 1.6rem;
   cursor: pointer;
-  padding: 8px;
+  padding: 10px;
   border-radius: 50%;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
-#prev-btn:hover, #next-btn:hover {
+.control-btn:hover, #prev-btn:hover, #next-btn:hover {
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.1);
+}
+
+#shuffle-btn.active {
+  color: #1db954; /* Spotify green when active */
 }
 
 .big-play {
-  width: 56px;
-  height: 56px;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
-  background: #333;
+  background: transparent;
   color: white;
   border: none;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .big-play:hover {
-  background: #555;
-  transform: scale(1.05);
+  background: #444;
+  transform: scale(1.1);
+}
+
+/* Progress takes available space safely */
+.player-progress {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  min-width: 300px;
 }
 
 .progress-container {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 0.82rem;
-  color: #888;
+  gap: 14px;
+  font-size: 0.86rem;
+  color: #aaa;
 }
 
 #progress {
   flex: 1;
   height: 5px;
-  background: #222;
-  border-radius: 5px;
+  background: #333;
+  border-radius: 4px;
   appearance: none;
   cursor: pointer;
 }
 
+#progress:hover {
+  height: 7px;
+}
+
 #progress::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.6);
+}
+
+#progress:hover::-webkit-slider-thumb {
+  transform: scale(1.4);
+}
+
+#progress::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #777 0%, #777 var(--value, 0%), #333 var(--value, 0%), #333 100%);
+  border-radius: 4px;
+}
+
+/* Volume control */
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#volume-btn {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+#volume-btn:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#volume-slider {
+  width: 100px;
+  height: 5px;
+  background: #333;
+  border-radius: 4px;
+  appearance: none;
+  cursor: pointer;
+}
+
+#volume-slider:hover {
+  height: 7px;
+}
+
+#volume-slider::-webkit-slider-thumb {
   appearance: none;
   width: 14px;
   height: 14px;
   background: white;
   border-radius: 50%;
-  cursor: pointer;
 }
 
-/* Filled progress track */
-#progress::-webkit-slider-runnable-track {
-  background: linear-gradient(to right, #666 0%, #666 var(--value), #222 var(--value), #222 100%);
-}
-
-/* Firefox */
-#progress::-moz-range-progress {
-  background: #666;
-  height: 5px;
-  border-radius: 5px;
-}
-
-/* Right side queue button */
+/* Queue button */
 #queue-btn {
   background: none;
   border: none;
   color: #aaa;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   cursor: pointer;
-  padding: 10px;
+  padding: 14px;
   border-radius: 50%;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
 #queue-btn:hover {
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
+/* Responsive fix for all screen ratios */
+@media (max-width: 1100px) {
+  .volume-control {
+    display: none; /* Hide volume on medium screens if cramped */
+  }
+}
+
+@media (max-width: 900px) {
   .global-player {
-    flex-direction: column;
     height: auto;
-    padding: 16px 20px;
-    gap: 12px;
+    padding: 18px 20px;
+    flex-direction: column;
+    gap: 16px;
   }
 
-  .player-left {
+  .player-main {
     width: 100%;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
   }
 
-  .player-center {
+  .player-left-group {
+    justify-content: space-between;
+  }
+
+  .player-controls {
     order: -1;
-    min-width: auto;
-    width: 100%;
+    justify-content: center;
+    margin-bottom: 8px;
   }
 
-  .progress-container {
-    width: 100%;
+  .player-progress {
+    max-width: none;
+    min-width: auto;
+  }
+
+  .volume-control {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   #queue-btn {
     position: absolute;
-    right: 16px;
-    top: 16px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
