@@ -90,6 +90,88 @@ function addToQueueAndPlay(trackEl) {
   updateQueueUI();
 }
 
+// ... (keep your existing code)
+
+// Queue & Playing Indicator
+function updateQueueUI() {
+  queueList.innerHTML = '';
+  queue.forEach((track, idx) => {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <span>${track.title} – ${track.albumTitle}</span>
+      <button class="remove-btn">×</button>
+    `;
+    if (idx === currentIndex) li.classList.add('current');
+
+    li.querySelector('.remove-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      queue.splice(idx, 1);
+      if (idx === currentIndex) {
+        currentIndex = Math.min(currentIndex, queue.length - 1);
+        if (currentIndex >= 0) playCurrentTrack();
+        else audio.pause();
+      }
+      updateQueueUI();
+    });
+
+    li.addEventListener('click', () => {
+      currentIndex = idx;
+      playCurrentTrack();
+      updateQueueUI();
+    });
+
+    queueList.appendChild(li);
+  });
+
+  // Enable drag-to-reorder
+  Sortable.create(queueList, {
+    animation: 150,
+    onEnd: (evt) => {
+      const moved = queue.splice(evt.oldIndex, 1)[0];
+      queue.splice(evt.newIndex, 0, moved);
+      if (evt.oldIndex === currentIndex) currentIndex = evt.newIndex;
+      else if (evt.oldIndex < currentIndex && evt.newIndex >= currentIndex) currentIndex--;
+      else if (evt.oldIndex > currentIndex && evt.newIndex <= currentIndex) currentIndex++;
+      updateQueueUI();
+    }
+  });
+}
+
+// When playing track changes, update UI
+function highlightPlayingTrack() {
+  document.querySelectorAll('.track').forEach(t => t.classList.remove('playing'));
+  const playingEl = [...document.querySelectorAll('.track')].find(t => 
+    t.dataset.title === queue[currentIndex]?.title
+  );
+  if (playingEl) playingEl.classList.add('playing');
+}
+
+// Add to queue function (prevents duplicates)
+function addToQueueAndPlay(trackEl) {
+  const trackData = allTracks.find(t => 
+    t.title === trackEl.dataset.title && 
+    t.albumTitle === trackEl.closest('.album').querySelector('h2').textContent
+  );
+  if (!trackData) return;
+
+  // Prevent duplicates
+  const exists = queue.some(q => q.title === trackData.title && q.albumTitle === trackData.albumTitle);
+  if (!exists) queue.push(trackData);
+
+  currentIndex = queue.findIndex(q => q.title === trackData.title && q.albumTitle === trackData.albumTitle);
+  playCurrentTrack();
+  updateQueueUI();
+}
+
+// Clear queue button
+document.getElementById('clear-queue').addEventListener('click', () => {
+  queue = [];
+  currentIndex = -1;
+  audio.pause();
+  updateQueueUI();
+  document.querySelectorAll('.track').forEach(t => t.classList.remove('playing'));
+});
+
 // Shuffle
 const shuffleBtn = document.getElementById('shuffle-btn');
 let shuffleMode = false;
