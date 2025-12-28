@@ -180,35 +180,6 @@
       ]
     },
     {
-      "id": "sativa",
-      "title": "sativa",
-      "year": 2022,
-      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/6180300e02f7c482b4ae5d85af71c0d8.jpg",
-      "tracks": [
-        {
-          "title": "gelato",
-          "duration": "1:43",
-          "src": "src/sativa/1. gelato.mp3",
-          "preview": "src/sativa/1. gelato.mp3",
-          "moods": ["jaydes"]
-        },
-        {
-          "title": "tell me",
-          "duration": "1:51",
-          "src": "src/sativa/2. tell me.mp3",
-          "preview": "src/sativa/2. tell me.mp3",
-          "moods": ["jaydes"]
-        },
-        {
-          "title": "cartier",
-          "duration": "1:25",
-          "src": "src/sativa/3. cartier.mp3",
-          "preview": "src/sativa/3. cartier.mp3",
-          "moods": ["jaydes"]
-        }
-      ]
-    },
-    {
       "id": "PHAT CHRIST",
       "title": "PHAT CHRIST",
       "year": 2022,
@@ -226,6 +197,133 @@
           "duration": "1:32",
           "src": "src/phatchrist/2. savior.mp3",
           "preview": "src/phatchrist/2. savior.mp3",
+          "moods": ["jaydes"]
+        }
+      ]
+    },
+    {
+      "id": "ghetto cupid",
+      "title": "ghetto cupid",
+      "year": 2023,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/8a7fa054fa6c6f8f786ba1eaa1ecf1fd.jpg",
+      "tracks": [
+        {
+          "title": "rose",
+          "duration": "2:06",
+          "src": "src/ghettocupid/1. rose.mp3",
+          "preview": "src/ghettocupid/1. rose.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "anemic",
+          "duration": "2:16",
+          "src": "src/ghettocupid/2. anemic.mp3",
+          "preview": "src/ghettocupid/2. anemic.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "let me b",
+          "duration": "1:34",
+          "src": "src/ghettocupid/3. let me b.mp3",
+          "preview": "src/ghettocupid/3. let me b.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "numb",
+          "duration": "2:10",
+          "src": "src/ghettocupid/4. numb.mp3",
+          "preview": "src/ghettocupid/4. numb.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "witchybitchy",
+          "duration": "1:59",
+          "src": "src/ghettocupid/5. witchybitchy.mp3",
+          "preview": "src/ghettocupid/5. witchybitchy.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "damage",
+          "duration": "1:32",
+          "src": "src/ghettocupid/6. damage.mp3",
+          "preview": "src/ghettocupid/6. damage.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "<3",
+          "duration": "2:58",
+          "src": "src/ghettocupid/7. ᐸ3.mp3",
+          "preview": "src/ghettocupid/7. ᐸ3.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "undercover",
+          "duration": "2:12",
+          "src": "src/ghettocupid/8. undercover.mp3",
+          "preview": "src/ghettocupid/8. undercover.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "dead girl",
+          "duration": "1:21",
+          "src": "src/ghettocupid/9. dead girl.mp3",
+          "preview": "src/ghettocupid/9. dead girl.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "fallen",
+          "duration": "1:12",
+          "src": "src/ghettocupid/10. fallen.mp3",
+          "preview": "src/ghettocupid/10. fallen.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "valentine",
+          "duration": "1:58",
+          "src": "src/ghettocupid/11. valentine.mp3",
+          "preview": "src/ghettocupid/11. valentine.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "misery",
+          "duration": "1:28",
+          "src": "src/ghettocupid/12. misery.mp3",
+          "preview": "src/ghettocupid/12. misery.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "spaz",
+          "duration": "1:50",
+          "src": "src/ghettocupid/13. spaz.mp3",
+          "preview": "src/ghettocupid/13. spaz.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "kesha k",
+          "duration": "1:38",
+          "src": "src/ghettocupid/14. kesha k.mp3",
+          "preview": "src/ghettocupid/14. kesha k.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "laylow",
+          "duration": "1:42",
+          "src": "src/ghettocupid/15. laylow.mp3",
+          "preview": "src/ghettocupid/15. laylow.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "horror",
+          "duration": "2:51",
+          "src": "src/ghettocupid/16. horror.mp3",
+          "preview": "src/ghettocupid/16. horror.mp3",
+          "moods": ["jaydes"]
+        },
+        {
+          "title": "draculea",
+          "duration": "2:07",
+          "src": "src/ghettocupid/17. draculea.mp3",
+          "preview": "src/ghettocupid/17. draculea.mp3",
           "moods": ["jaydes"]
         }
       ]
