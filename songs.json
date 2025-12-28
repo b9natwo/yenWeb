@@ -1,8 +1,51 @@
 {
   "albums": [
     {
+      "id": "entry log",
+      "title": "entry log - EP",
+      "year": 2021,
+      "art": "https://lastfm.freetls.fastly.net/i/u/500x500/5dd66fc72437f190b9ac24050b668bc4.jpg",
+      "tracks": [
+        {
+          "title": "entry one",
+          "duration": "1:04",
+          "src": "src/entrylog/1. entry one.mp3",
+          "preview": "src/entrylog/entry one.mp3",
+          "moods": ["evvls", "released"]
+        },
+        {
+          "title": "entry two",
+          "duration": "0:45",
+          "src": "src/entrylog/2. entry two.mp3",
+          "preview": "src/entrylog/entry two.mp3",
+          "moods": ["evvls", "released"]
+        },
+        {
+          "title": "entry three",
+          "duration": "0:34",
+          "src": "src/entrylog/3. entry three.mp3",
+          "preview": "src/entrylog/entry three.mp3",
+          "moods": ["evvls", "released"]
+        },
+        {
+          "title": "entry four",
+          "duration": "0:33",
+          "src": "src/entrylog/4. entry four.mp3",
+          "preview": "src/entrylog/entry four.mp3",
+          "moods": ["evvls", "released"]
+        },
+        {
+          "title": "entry six",
+          "duration": "0:27",
+          "src": "src/entrylog/5. entry six.mp3",
+          "preview": "src/entrylog/entry six.mp3",
+          "moods": ["evvls", "released"]
+        }
+      ]
+    },
+    {
       "id": "interrobang",
-      "title": "!?",
+      "title": "!? - EP",
       "year": 2021,
       "art": "https://lastfm.freetls.fastly.net/i/u/500x500/f4dbd5f7d81562cae5eb02e8f9660c51.jpg",
       "tracks": [
@@ -11,41 +54,41 @@
           "duration": "1:41",
           "src": "src/interrobang/1. intro.mp3",
           "preview": "src/interrobang/1. intro.mp3",
-          "moods": ["evvls"]
+          "moods": ["evvls", "released"]
         },
         {
           "title": "sick",
           "duration": "2:05",
           "src": "src/interrobang/2. sick.mp3",
           "preview": "src/interrobang/2. sick.mp3",
-          "moods": ["evvls"]
+          "moods": ["evvls", "released"]
         },
         {
           "title": "scam likely",
           "duration": "1:25",
           "src": "src/interrobang/3. scam likely.mp3",
           "preview": "src/interrobang/3. scam likely.mp3",
-          "moods": ["evvls"]
+          "moods": ["evvls", "released"]
         },
         {
           "title": "passive aggression (ft. Yung Fazo)",
           "duration": "2:15",
           "src": "src/interrobang/4. passive aggression (ft. Yung Fazo).mp3",
           "preview": "src/interrobang/4. passive aggression (ft. Yung Fazo).mp3",
-          "moods": ["evvls"]
+          "moods": ["evvls", "released"]
         },
         {
           "title": "hearts",
           "duration": "2:01",
           "src": "src/interrobang/5. hearts.mp3",
           "preview": "src/interrobang/5. hearts.mp3",
-          "moods": ["evvls"]
+          "moods": ["evvls", "released"]
         }
       ]
     },
     {
       "id": "romanticism",
-      "title": "romanticism",
+      "title": "romanticism - EP",
       "year": 2022,
       "art": "https://lastfm.freetls.fastly.net/i/u/770x0/47898b374f0a6005dda8d2200816a421.jpg#47898b374f0a6005dda8d2200816a421",
       "tracks": [
@@ -54,28 +97,28 @@
           "duration": "0:34",
           "src": "src/romanticism/1. 4u.mp3",
           "preview": "src/romanticism/1. 4u.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "tylenol",
           "duration": "1:21",
           "src": "src/romanticism/2. tylenol.mp3",
           "preview": "src/romanticism/2. tylenol.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "migraine",
           "duration": "0:31",
           "src": "src/romanticism/3. migraine.mp3",
           "preview": "src/romanticism/3. migraine.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "convenience",
           "duration": "1:14",
           "src": "src/romanticism/4. convenience.mp3",
           "preview": "src/romanticism/4. convenience.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         }
       ]
     },
@@ -90,69 +133,69 @@
           "duration": "1:56",
           "src": "src/heartpacing/1. built off slime.mp3",
           "preview": "src/heartpacing/1. built off slime.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "Who Can I Trust (ft. Rich Amiri)",
           "duration": "2:16",
           "src": "src/heartpacing/2. who can i trust.mp3",
           "preview": "src/heartpacing/2. who can i trust.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "stuck to script",
           "duration": "1:40",
           "src": "src/heartpacing/3. stuck to script.mp3",
           "preview": "src/heartpacing/3. stuck to script.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "sedated",
           "duration": "1:46",
           "src": "src/heartpacing/4. sedated.mp3",
           "preview": "src/heartpacing/4. sedated.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "dont worry bout me",
           "duration": "1:53",
           "src": "src/heartpacing/5. dont worry bout me.mp3",
           "preview": "src/heartpacing/5. dont worry bout me.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "Patience (ft. Riovaz)",
           "duration": "2:02",
           "src": "src/heartpacing/6. patience.mp3",
           "preview": "src/heartpacing/6. patience.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "never meet your idols",
           "duration": "1:40",
           "src": "src/heartpacing/7. never meet your idols.mp3",
           "preview": "src/heartpacing/7. never meet your idols.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "drama queen",
           "duration": "1:42",
           "src": "src/heartpacing/8. drama queen.mp3",
           "preview": "src/heartpacing/8. drama queen.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "hateinterlude",
           "duration": "1:18",
           "src": "src/heartpacing/9. hateinterlude.mp3",
           "preview": "src/heartpacing/9. hateinterlude.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         }
       ]
     },
     {
       "id": "sativa",
-      "title": "sativa",
+      "title": "sativa - EP",
       "year": 2022,
       "art": "https://lastfm.freetls.fastly.net/i/u/500x500/6180300e02f7c482b4ae5d85af71c0d8.jpg",
       "tracks": [
@@ -161,43 +204,43 @@
           "duration": "1:43",
           "src": "src/sativa/1. gelato.mp3",
           "preview": "src/sativa/1. gelato.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "tell me",
           "duration": "1:51",
           "src": "src/sativa/2. tell me.mp3",
           "preview": "src/sativa/2. tell me.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "cartier",
           "duration": "1:25",
           "src": "src/sativa/3. cartier.mp3",
           "preview": "src/sativa/3. cartier.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         }
       ]
     },
     {
       "id": "PHAT CHRIST",
-      "title": "PHAT CHRIST",
+      "title": "PHAT CHRIST - EP",
       "year": 2022,
       "art": "https://lastfm.freetls.fastly.net/i/u/770x0/c3777d5583c3b0d7cbf8f6a67b1bc7e2.jpg#c3777d5583c3b0d7cbf8f6a67b1bc7e2",
       "tracks": [
         {
-          "title": "karma",
+          "title": "Karma",
           "duration": "2:00",
           "src": "src/phatchrist/1. karma.mp3",
           "preview": "src/phatchrist/1. karma.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
-          "title": "savior",
+          "title": "Savior",
           "duration": "1:32",
           "src": "src/phatchrist/2. savior.mp3",
           "preview": "src/phatchrist/2. savior.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         }
       ]
     },
@@ -212,120 +255,212 @@
           "duration": "2:06",
           "src": "src/ghettocupid/1. rose.mp3",
           "preview": "src/ghettocupid/1. rose.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "anemic",
           "duration": "2:16",
           "src": "src/ghettocupid/2. anemic.mp3",
           "preview": "src/ghettocupid/2. anemic.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "let me b",
           "duration": "1:34",
           "src": "src/ghettocupid/3. let me b.mp3",
           "preview": "src/ghettocupid/3. let me b.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "numb",
           "duration": "2:10",
           "src": "src/ghettocupid/4. numb.mp3",
           "preview": "src/ghettocupid/4. numb.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "witchybitchy",
           "duration": "1:59",
           "src": "src/ghettocupid/5. witchybitchy.mp3",
           "preview": "src/ghettocupid/5. witchybitchy.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "damage",
           "duration": "1:32",
           "src": "src/ghettocupid/6. damage.mp3",
           "preview": "src/ghettocupid/6. damage.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "<3",
           "duration": "2:58",
           "src": "src/ghettocupid/7. ᐸ3.mp3",
           "preview": "src/ghettocupid/7. ᐸ3.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "undercover",
           "duration": "2:12",
           "src": "src/ghettocupid/8. undercover.mp3",
           "preview": "src/ghettocupid/8. undercover.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "dead girl",
           "duration": "1:21",
           "src": "src/ghettocupid/9. dead girl.mp3",
           "preview": "src/ghettocupid/9. dead girl.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "fallen",
           "duration": "1:12",
           "src": "src/ghettocupid/10. fallen.mp3",
           "preview": "src/ghettocupid/10. fallen.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "valentine",
           "duration": "1:58",
           "src": "src/ghettocupid/11. valentine.mp3",
           "preview": "src/ghettocupid/11. valentine.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "misery",
           "duration": "1:28",
           "src": "src/ghettocupid/12. misery.mp3",
           "preview": "src/ghettocupid/12. misery.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "spaz",
           "duration": "1:50",
           "src": "src/ghettocupid/13. spaz.mp3",
           "preview": "src/ghettocupid/13. spaz.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "kesha k",
           "duration": "1:38",
           "src": "src/ghettocupid/14. kesha k.mp3",
           "preview": "src/ghettocupid/14. kesha k.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "laylow",
           "duration": "1:42",
           "src": "src/ghettocupid/15. laylow.mp3",
           "preview": "src/ghettocupid/15. laylow.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "horror",
           "duration": "2:51",
           "src": "src/ghettocupid/16. horror.mp3",
           "preview": "src/ghettocupid/16. horror.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         },
         {
           "title": "draculea",
           "duration": "2:07",
           "src": "src/ghettocupid/17. draculea.mp3",
           "preview": "src/ghettocupid/17. draculea.mp3",
-          "moods": ["jaydes"]
+          "moods": ["jaydes", "released"]
         }
+      ]
+    },
+    {
+      "id": "icy mix",
+      "title": "icy mix (2023) - EP",
+      "year": 2023,
+      "art": "https://t2.genius.com/unsafe/379x379/https%3A%2F%2Fimages.genius.com%2F758e0f275d0e207224b22fc97e3b85ec.500x500x1.jpg",
+      "tracks": [
+        {
+          "title": "dark",
+          "duration": "0:26",
+          "src": "src/icymix/1. dark.mp3",
+          "preview": "src/icymix/1. dark.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "gothchant",
+          "duration": "1:34",
+          "src": "src/icymix/2. gothchant.mp3",
+          "preview": "src/icymix/2. gothchant.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "xanbirthdaycake",
+          "duration": "0:22",
+          "src": "src/icymix/3. xanbirthdaycake.mp3",
+          "preview": "src/icymix/3. xanbirthdaycake.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "yesmen",
+          "duration": "0:29",
+          "src": "src/icymix/4. yesmen.mp3",
+          "preview": "src/icymix/4. yesmen.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "without u",
+          "duration": "1:06",
+          "src": "src/icymix/5. without u.mp3",
+          "preview": "src/icymix/5. without u.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "every bitch look goth",
+          "duration": "1:17",
+          "src": "src/icymix/6. every bitch look goth.mp3",
+          "preview": "src/icymix/6. every bitch look goth.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "fantasia",
+          "duration": "0:43",
+          "src": "src/icymix/7. fantasia.mp3",
+          "preview": "src/icymix/7. fantasia.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "boolin",
+          "duration": "0:10",
+          "src": "src/icymix/8. boolin.mp3",
+          "preview": "src/icymix/8. boolin.mp3",
+          "moods": ["yen", "released"]
+        }, 
+        {
+          "title": "suicides",
+          "duration": "0:36",
+          "src": "src/icymix/9. suicides.mp3",
+          "preview": "src/icymix/9. suicides.mp3",
+          "moods": ["yen", "released"]
+        }, 
+        {
+          "title": "assimilate",
+          "duration": "0:33",
+          "src": "src/icymix/10. assimilate.mp3",
+          "preview": "src/icymix/10. assimilate.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "jugg2",
+          "duration": "0:53",
+          "src": "src/icymix/11. jugg2.mp3",
+          "preview": "src/icymix/11. jugg2.mp3",
+          "moods": ["yen", "released"]
+        }, 
+        {
+          "title": "karma",
+          "duration": "0:40",
+          "src": "src/icymix/12. karma.mp3",
+          "preview": "src/icymix/12. karma.mp3",
+          "moods": ["yen", "released"]
+        } 
       ]
     },
     {
@@ -339,42 +474,42 @@
           "duration": "1:09",
           "src": "src/panic/1. stan.mp3",
           "preview": "src/panic/stan.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "piss",
           "duration": "1:29",
           "src": "src/panic/2. piss.mp3",
           "preview": "src/panic/2. piss.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "babies",
           "duration": "2:36",
           "src": "src/panic/3. babies.mp3",
           "preview": "src/panic/3. babies.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "die",
           "duration": "2:22",
           "src": "src/panic/4. die.mp3",
           "preview": "src/panic/4. die.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "cry",
           "duration": "1:33",
           "src": "src/panic/5. cry.mp3",
           "preview": "src/panic/5. cry.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "lowlife",
           "duration": "1:01",
           "src": "src/panic/6. lowlife.mp3",
           "preview": "src/panic/6. lowlife.mp3",
-          "moods": ["yen"]
+          "moods": ["yen", "released"]
         }
       ]
     },
@@ -389,28 +524,44 @@
           "duration": "3:12",
           "src": "src/whatever/2. iced mocha dolche cream.mp3",
           "preview": "src/whatever/2. iced mocha dolche cream.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "nectar",
           "duration": "3:05",
           "src": "src/whatever/3. nectar.mp3",
           "preview": "src/whatever/3. nectar.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "twig",
           "duration": "2:30",
           "src": "src/whatever/4. twig.mp3",
           "preview": "src/whatever/4. twig.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
         },
         {
           "title": "whatever",
           "duration": "2:47",
           "src": "src/whatever/5. whatever.mp3",
           "preview": "src/whatever/whatever.mp3",
-          "moods": ["mandy"]
+          "moods": ["mandy", "released"]
+        }
+      ]
+    },
+    {
+    "id": "archive",
+    "title": "archive",
+    "year": "b4yen.",
+    "art": "https://m.media-amazon.com/images/I/41-Ar5FM36L._UXNaN_FMjpg_QL85_.jpg", 
+    "tracks": [
+        {
+        "title": "bleed",
+        "duration": "2:55",
+        "src": "src/archive/bleed.mp3",
+        "preview": "src/archive/bleed.mp3",
+        "art": "https://i.ibb.co/tpWfXRXn/image.png",  
+        "moods": ["yen", "unreleased"]
         }
       ]
     }
