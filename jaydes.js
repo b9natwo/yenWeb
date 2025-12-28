@@ -90,6 +90,48 @@ function addToQueueAndPlay(trackEl) {
   updateQueueUI();
 }
 
+// Shuffle
+const shuffleBtn = document.getElementById('shuffle-btn');
+let shuffleMode = false;
+
+shuffleBtn.addEventListener('click', () => {
+  shuffleMode = !shuffleMode;
+  shuffleBtn.classList.toggle('active', shuffleMode);
+});
+
+// Volume
+const volumeSlider = document.getElementById('volume-slider');
+const volumeBtn = document.getElementById('volume-btn');
+
+volumeSlider.addEventListener('input', () => {
+  audio.volume = volumeSlider.value / 100;
+  updateVolumeIcon();
+});
+
+function updateVolumeIcon() {
+  if (audio.volume === 0) {
+    volumeBtn.textContent = '🔇';
+  } else if (audio.volume < 0.5) {
+    volumeBtn.textContent = '🔉';
+  } else {
+    volumeBtn.textContent = '🔊';
+  }
+}
+
+volumeBtn.addEventListener('click', () => {
+  if (audio.volume > 0) {
+    audio.volume = 0;
+    volumeSlider.value = 0;
+  } else {
+    audio.volume = 1;
+    volumeSlider.value = 100;
+  }
+  updateVolumeIcon();
+});
+
+// Initial icon
+updateVolumeIcon();
+
 function playCurrentTrack() {
   if (currentIndex < 0 || currentIndex >= queue.length) return;
 
@@ -245,3 +287,9 @@ randomBtn.addEventListener('click', () => {
   const randomEl = visibleTracks[Math.floor(Math.random() * visibleTracks.length)];
   addToQueueAndPlay(randomEl);
 });
+
+// Add fade animation on track change
+document.querySelector('.player-left').style.animation = 'none';
+setTimeout(() => {
+  document.querySelector('.player-left').style.animation = 'fadeIn 0.4s ease';
+}, 10);
