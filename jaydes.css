@@ -267,7 +267,7 @@ h1 {
 #progress {
   flex: 1;
   height: 5px;
-  background: #333;
+  background: #ffffff;
   border-radius: 4px;
   appearance: none;
   cursor: pointer;
@@ -394,18 +394,139 @@ h1 {
     min-width: auto;
   }
 
-  .volume-control {
-    display: flex;
-    position: absolute;
-    right: 70px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-right: 12px; /* Tight space to queue button */
+}
 
-  #queue-btn {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+#queue-btn {
+  margin-left: 0;
+  padding: 12px 16px;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+#queue-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Queue Modal */
+.queue-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+
+.queue-content {
+  background: #111;
+  width: 90%;
+  max-width: 600px;
+  max-height: 85vh;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+}
+
+.queue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #222;
+}
+
+.queue-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+#clear-queue {
+  background: #222;
+  color: #ff5555;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#queue-list {
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+}
+
+#queue-list li {
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+  background: #1a1a1a;
+  margin: 4px 12px;
+  border-radius: 10px;
+  cursor: move;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+#queue-list li:hover {
+  background: #252525;
+}
+
+#queue-list li.current {
+  background: #2a2a2a;
+  border-left: 4px solid #1db954;
+  font-weight: 500;
+}
+
+#queue-list li .remove-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 6px;
+}
+
+#queue-list li .remove-btn:hover {
+  color: #ff5555;
+}
+
+#close-queue {
+  width: 100%;
+  padding: 16px;
+  background: #222;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Playing track indicator in track list (Spotify-style) */
+.track.playing .track-duration {
+  display: none;
+}
+
+.track.playing::after {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%231DB954"><path d="M8 5v14l11-7z"/></svg>') no-repeat center/cover;
+  margin-left: 12px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
 }
