@@ -379,13 +379,13 @@
           "duration": "0:10",
           "src": "src/icymix/8. boolin.mp3",
           "moods": ["yen", "released"]
-        }, 
+        },
         {
           "title": "suicides",
           "duration": "0:36",
           "src": "src/icymix/9. suicides.mp3",
           "moods": ["yen", "released"]
-        }, 
+        },
         {
           "title": "assimilate",
           "duration": "0:33",
@@ -397,13 +397,13 @@
           "duration": "0:53",
           "src": "src/icymix/11. jugg2.mp3",
           "moods": ["yen", "released"]
-        }, 
+        },
         {
           "title": "karma",
           "duration": "0:40",
           "src": "src/icymix/12. karma.mp3",
           "moods": ["yen", "released"]
-        } 
+        }
       ]
     },
     {
@@ -483,74 +483,188 @@
       ]
     },
     {
-    "id": "archive",
-    "title": "archive",
-    "year": "b4yen.",
-    "art": "https://m.media-amazon.com/images/I/41-Ar5FM36L._UXNaN_FMjpg_QL85_.jpg", 
-    "tracks": [
+      "id": "archive",
+      "title": "archive",
+      "year": "b4yen.",
+      "art": "https://m.media-amazon.com/images/I/41-Ar5FM36L._UXNaN_FMjpg_QL85_.jpg",
+      "tracks": [
         {
-        "title": ";( [dont pretend]",
-        "duration": "1:28",
-        "src": "src/archive/;(.mp3",
-        "art": "https://i.ibb.co/1YdD6wqj/image.png",  
-        "moods": ["yen", "unreleased"]
+          "title": ";( [dont pretend]",
+          "duration": "1:28",
+          "src": "src/archive/;(.mp3",
+          "art": "https://i.ibb.co/1YdD6wqj/image.png",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "^-^ [yea]",
-        "duration": "1:13",
-        "src": "src/archive/^-^.mp3",
-        "art": "https://i.ibb.co/sptfwyfM/image.png",  
-        "moods": ["yen", "unreleased"]
+          "title": "^-^ [yea]",
+          "duration": "1:13",
+          "src": "src/archive/^-^.mp3",
+          "art": "https://i.ibb.co/sptfwyfM/image.png",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "18 [piXXa OG]",
-        "duration": "1:05",
-        "src": "src/archive/18.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "18 [piXXa OG]",
+          "duration": "1:05",
+          "src": "src/archive/18.mp3",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "antichrist [bugs in my skin]",
-        "duration": "1:02",
-        "src": "src/archive/antichrist.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "antichrist [bugs in my skin]",
+          "duration": "1:02",
+          "src": "src/archive/antichrist.mp3",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "BAKKEND",
-        "duration": "1:55",
-        "src": "src/archive/BAKKEND.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "BAKKEND",
+          "duration": "1:55",
+          "src": "src/archive/BAKKEND.mp3",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "balenci thot (ft. Osamason)",
-        "duration": "2:40",
-        "src": "src/archive/balenci thot.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "balenci thot (ft. Osamason)",
+          "duration": "2:40",
+          "src": "src/archive/balenci thot.mp3",
+          "moods": ["yen", "unreleased"]
         },
         {
-            "title": "betrayal",
-            "duration": "0:56",
-            "src": "src/archive/betrayal.mp3",
-            "art": "https://i.ibb.co/v4gXvGRp/image.png",
-            "moods": ["yen", "unreleased"]
+          "title": "betrayal",
+          "duration": "0:56",
+          "src": "src/archive/betrayal.mp3",
+          "art": "https://i.ibb.co/v4gXvGRp/image.png",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "bleed",
-        "duration": "1:44",
-        "src": "src/archive/bleed.mp3",
-        "art": "https://i.ibb.co/tpWfXRXn/image.png",  
-        "moods": ["yen", "unreleased"]
+          "title": "bleed",
+          "duration": "1:44",
+          "src": "src/archive/bleed.mp3",
+          "art": "https://i.ibb.co/tpWfXRXn/image.png",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "blood soda (ft. yuke)",
-        "duration": "1:43",
-        "src": "src/archive/blood soda.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "blood soda (ft. yuke)",
+          "duration": "1:43",
+          "src": "src/archive/blood soda.mp3",
+          "moods": ["yen", "unreleased"]
         },
         {
-        "title": "cartoon",
-        "duration": "0:48",
-        "src": "src/archive/cartoon.mp3",
-        "moods": ["yen", "unreleased"]
+          "title": "cartoon",
+          "duration": "0:48",
+          "src": "src/archive/cartoon.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "cash in my mattress [static]",
+          "duration": "1:07",
+          "src": "src/archive/cash in my mattress.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "CLICK THIS SONG IF YOU LIKE WOLFS [kill me]",
+          "duration": "1:02",
+          "src": "src/archive/CLICK THIS SONG IF YOU LIKE WOLFS.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "clutch god",
+          "duration": "0:55",
+          "src": "src/archive/clutch god.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "coke draculas",
+          "duration": "1:21",
+          "src": "src/archive/coke draculas.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "dizzy",
+          "duration": "1:07",
+          "src": "src/archive/dizzy.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "dying",
+          "duration": "1:07",
+          "src": "src/archive/dying.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "exotic [copy me]",
+          "duration": "2:29",
+          "src": "src/archive/exotic.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "fantasia [HORROR]",
+          "duration": "1:01",
+          "src": "src/archive/fantasia.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "FEAR OF GODS",
+          "duration": "1:21",
+          "src": "src/archive/FEAR OF GODS.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "find me",
+          "duration": "1:32",
+          "src": "src/archive/find me.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "flood",
+          "duration": "1:29",
+          "src": "src/archive/flood.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "for the people that like to listen",
+          "duration": "1:02",
+          "src": "src/archive/for the people that like to listen.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "for what its worth [virgin]",
+          "duration": "1:36",
+          "src": "src/archive/for what its worth.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "foreign",
+          "duration": "0:56",
+          "src": "src/archive/foreign.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "frankenstein (ft. yuke)",
+          "duration": "2:50",
+          "src": "src/archive/frankenstein.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "guap [yeezy]",
+          "duration": "1:02",
+          "src": "src/archive/guap.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "hi tech (ft. yuke)",
+          "duration": "1:39",
+          "src": "src/archive/hi tech.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "higher den ü",
+          "duration": "1:28",
+          "src": "src/archive/higher den ü.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "HUH",
+          "duration": "3:02",
+          "src": "src/archive/HUH.mp3",
+          "moods": ["yen", "unreleased"]
         }
       ]
     }
