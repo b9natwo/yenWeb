@@ -178,8 +178,7 @@ const shuffleBtn = document.getElementById('shuffle-btn');
 let shuffleMode = false;
 
 shuffleBtn.addEventListener('click', () => {
-  shuffleMode = !shuffleMode;
-  shuffleBtn.classList.toggle('active', shuffleMode);
+  window.location.href = audio.src;
 });
 
 // Volume
