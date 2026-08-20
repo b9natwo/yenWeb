@@ -483,6 +483,56 @@
       ]
     },
     {
+      "id": "yen",
+      "title": "YEN",
+      "year": 2026,
+      "art": "https://i1.sndcdn.com/artworks-76295892-5a75-4ee4-a925-121efd4574af-0-t500x500.jpg",
+      "tracks": [
+        {
+          "title": "Past 9",
+          "duration": "1:31",
+          "src": "src/yen/1. Past 9.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "Whatever",
+          "duration": "1:28",
+          "src": "src/yen/2. Whatever.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "Dont Care Didnt Ask",
+          "duration": "1:23",
+          "src": "src/yen/3. Dont Care Didnt Ask.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "Go Home",
+          "duration": "2:08",
+          "src": "src/yen/4. Go Home.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "Such A Flirt",
+          "duration": "2:14",
+          "src": "src/yen/5. Such A Flirt.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "My Negative Aura",
+          "duration": "1:27",
+          "src": "src/yen/6. My Negative Aura.mp3",
+          "moods": ["yen", "released"]
+        },
+        {
+          "title": "On My Dead Girlfriend",
+          "duration": "1:16",
+          "src": "src/yen/7. On My Dead Girlfriend.mp3",
+          "moods": ["yen", "released"]
+        }
+      ]
+    },
+    {
       "id": "archive",
       "title": "archive",
       "year": "b4yen.",
@@ -524,6 +574,13 @@
           "title": "balenci thot (ft. Osamason)",
           "duration": "2:40",
           "src": "src/archive/balenci thot.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "bastard",
+          "duration": "1:01",
+          "src": "src/archive/bastard.mp3",
+          "art": "https://i.scdn.co/image/ab67616d00001e02ddcab74e70cd109abda24782",
           "moods": ["yen", "unreleased"]
         },
         {
@@ -619,6 +676,12 @@
           "moods": ["yen", "unreleased"]
         },
         {
+          "title": "foolish",
+          "duration": "1:09",
+          "src": "src/archive/foolish.mp3",
+          "moods": ["evvls", "unreleased"]
+        },
+        {
           "title": "for the people that like to listen",
           "duration": "1:02",
           "src": "src/archive/for the people that like to listen.mp3",
@@ -664,6 +727,93 @@
           "title": "HUH",
           "duration": "3:02",
           "src": "src/archive/HUH.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "i might die",
+          "duration": "1:18",
+          "src": "src/archive/i might die.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "idiot",
+          "duration": "1:29",
+          "src": "src/archive/idiot.mp3",
+          "art": "https://i.ibb.co/N6Ddk7Jw/image.png",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "idky [know you]",
+          "duration": "1:34",
+          "src": "src/archive/idky.mp3",
+          "art": "https://i.ibb.co/dwfKbTYK/image.png",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "itchy",
+          "duration": "1:11",
+          "src": "src/archive/itchy.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "L8R",
+          "duration": "1:19",
+          "src": "src/archive/L8R.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "MAKE IT RIGHT BACK!",
+          "duration": "1:26",
+          "src": "src/archive/MAKE IT RIGHT BACK!.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "molly",
+          "duration": "1:03",
+          "src": "src/archive/molly.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "need",
+          "duration": "1:45",
+          "src": "src/archive/need.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "never been sorry",
+          "duration": "1:45",
+          "src": "src/archive/never been sorry.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "no scripts",
+          "duration": "1:10",
+          "src": "src/archive/no scripts.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "no talking",
+          "duration": "1:34",
+          "src": "src/archive/no talking.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "suicides",
+          "duration": "1:29",
+          "src": "src/archive/suicides.mp3",
+          "art": "https://i.scdn.co/image/ab67616d0000b27340642cabd90db338c486a5b1",
+          "moods": ["jaydes", "unreleased"]
+        },
+        {
+          "title": "surreal [MONEY ON THE TABLE]",
+          "duration": "1:30",
+          "src": "src/archive/surreal.mp3",
+          "moods": ["yen", "unreleased"]
+        },
+        {
+          "title": "xanbirthdaycake [cute]",
+          "duration": "1:22",
+          "src": "src/archive/xanbirthdaycake.mp3",
           "moods": ["yen", "unreleased"]
         }
       ]
